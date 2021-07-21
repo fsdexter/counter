@@ -1,0 +1,46 @@
+.Timer {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 8px;
+    border-color: lightblue;
+    background-color:lightgrey
+  }
+  
+  #display {
+    margin-bottom: 20px;
+    background-color: lightblue;
+    border-radius: 8px;
+  }
+  #display span {
+    font-size: 36px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+  }
+  #buttons button:nth-child(2) {
+    margin-left: 8px;
+  }
+  
+  button {
+    font-size: 16px;
+    background-color: rgb(217, 60, 35);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(173, 47, 28);
+  }
+  button:active {
+    background-color: rgb(130, 35, 21);
+  }
+  button:focus {
+    outline: 0;
+  }
+  .icon {
+    font: size 18px;
+  }
